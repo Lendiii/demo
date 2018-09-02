@@ -13,4 +13,10 @@ public class EmployeeController {
 	{
 		return "Hello World";
 	}
+	
+	@GetMapping(value="/demo")
+	public void retrieve()
+	{
+		//retrieve all employee
+	}
 }
